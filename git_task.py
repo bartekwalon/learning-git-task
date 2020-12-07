@@ -3,3 +3,7 @@ shopping_list = {
     "piekarnia": ['chleb','bulki','pączek']
 }
 sum=sum(map(len, shopping_list.values()))
+for key, value in shopping_list.items():
+    print(
+        "Idę do " +str.capitalize(key) +" kupię tu następujące rzeczy: " +str(value)+"."
+        )
