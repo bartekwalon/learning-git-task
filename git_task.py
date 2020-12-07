@@ -7,3 +7,4 @@ for key, value in shopping_list.items():
     print(
         "Idę do " +str.capitalize(key) +" kupię tu następujące rzeczy: " +str(value)+"."
         )
+print("W sumie kupuję " +str(sum)+ " produktów.")
